@@ -66,4 +66,4 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CALL InsertData();
+SELECT InsertData();
